@@ -15,13 +15,15 @@ body{
 }
 
 h1{
-    padding-top: 0px;
-    color: #6e0c00;
+    padding-top: 150px;
+    color: white;
     font-family: 'Courgette', cursive;
     font-family: 'Rock Salt', cursive;
     font-size: 50px;
+    display: inline-block;
+    position: absolute;
     
-    text-align: center;
+    
 }
 #logo{
     position: absolute;
@@ -50,8 +52,8 @@ img{
     background: fixed;
     font-weight: bold;
     line-height: 250%;
-    color: #0b1f51;
-    text-shadow: -1px 0 , 0 1px , 1px 0  #6e0c00, 0 -1px  #6e0c00;
+    color: #6e0c00;
+    text-shadow: -1px 0 , 0 1px , 1px 0  white, 0 -1px  white;
     
 }
 li {

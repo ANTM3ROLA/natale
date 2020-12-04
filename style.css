@@ -1,0 +1,63 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Rock+Salt&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    background-image: url(natale.jpg);
+    width: 100%;
+    height: 100%;
+    
+    
+    
+}
+
+h1{
+    padding-top: 0px;
+    color: #6e0c00;
+    font-family: 'Courgette', cursive;
+    font-family: 'Rock Salt', cursive;
+    font-size: 50px;
+    
+    text-align: center;
+}
+#logo{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    width: 100px;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #7bb6de;
+    color: white;
+}
+img{
+    position: absolute;
+    right: 0;
+    bottom: 80px;
+    width: 600px ;
+}
+.container{
+    text-align: center;
+    color: #0a1a44;
+    background: fixed;
+    
+}
+li {
+    display: inline-block;
+    font-size: 15px;
+    list-style-type: none;
+    padding: 1em;
+    text-transform: uppercase;
+}
+li span {
+    display: block;
+    font-size: 4.5rem;
+  }

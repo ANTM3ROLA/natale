@@ -6,9 +6,12 @@
 }
 body{
     height: 100vh;
-    background-image: url(natale.jpg);
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    background-image: url(natale.jpg) ;
+    -moz-background-size: cover;
+        -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     
     
     
@@ -16,14 +19,20 @@ body{
 
 h1{
     padding-top: 150px;
+    padding-left: 40px;
     color: white;
     font-family: 'Courgette', cursive;
     font-family: 'Rock Salt', cursive;
     font-size: 50px;
     display: inline-block;
     position: absolute;
-    
-    
+}
+p{
+    position: absolute;
+    padding-top: 250px;
+    padding-left: 40px ;
+    color: white;
+    margin-right: 500px;
 }
 #logo{
     position: absolute;
@@ -37,23 +46,22 @@ footer {
     left: 0;
     width: 100%;
     text-align: center;
-    background-color: #7bb6de;
-    color: white;
+    color: #dac204;
+    
 }
-img{
+marquee{
     position: absolute;
-    right: 0;
-    bottom: 80px;
-    width: 600px ;
+    padding-top: 300px;
+    
 }
 .container{
     text-align: center;
-    color: #c69c12;
+    
     background: fixed;
     font-weight: bold;
     line-height: 250%;
-    color: #6e0c00;
-    text-shadow: -1px 0 , 0 1px , 1px 0  white, 0 -1px  white;
+    color: #dac204;
+    text-shadow: -1px 0 , 0 1px , 1px 0 #b42525, 0 -1px  #b42525;
     
 }
 li {
